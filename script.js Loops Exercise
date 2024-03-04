@@ -1,0 +1,24 @@
+// 1
+for (let i = 1; i <= 7; i++) {
+    console.log(i);
+}
+// 2 
+for (let i = 5; i <= 25; i += 4) {
+    console.log(i);
+}
+// 3a
+for (let i = 5; i <= 25; i += 4) {
+    console.log(i);
+}
+// 3b 
+for (const wizard of wizards) {
+    console.log(wizard);
+}
+// 4a 
+let harryPotterMovies = 0;
+// 4b
+while (harryPotterMovies < 8) {
+    harryPotterMovies++;
+}
+// 4c 
+console.log(harryPotterMovies);
